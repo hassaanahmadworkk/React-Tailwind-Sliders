@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <title>Slider 3</title>
+</head>
+
+<body class="flex justify-center items-center bg-gray-500 min-h-screen px-8 ">
+  <div class="wrapper max-w-[1200px]  relative bg-white">
+    <button
+      class="material-symbols-outlined bg-white p-2 leading-10 text-center rounded-[50%] text-xl cursor-pointer -left-6 top-1/2 absolute" id="next-slide">
+      chevron_left
+  </button>
+    <div class="carousel cursor-pointer overflow-hidden whitespace-nowrap  m-auto grid grid-flow-col  auto-cols-[calc(100%/5)] lg:auto-cols-[calc(100%/4)] md:auto-cols-[calc(100%/2)] sm:auto-cols-[calc(100%/1)] object-center scroll-smooth m-auto">
+      <img src="https://picsum.photos/id/247/300/500"
+        class="slide h-[340px] object-cover" alt="1">
+      <img src="https://picsum.photos/id/337/300/500"
+        class="slide h-[340px] object-cover" alt="2">
+      <img src="https://picsum.photos/id/297/300/500"
+        class="slide h-[340px]  object-cover" alt="3">
+      <img src="https://picsum.photos/id/265/300/500"
+        class="slide h-[340px] object-cover" alt="4">
+      <img src="https://picsum.photos/id/235/300/500"
+        class="slide h-[340px]  object-cover" alt="5">
+      <img src="https://picsum.photos/id/215/300/500"
+        class="slide h-[340px] object-cover" alt="6">
+      <img src="https://picsum.photos/id/227/300/500"
+        class="slide h-[340px] object-cover" alt="7">
+      <img src="https://picsum.photos/id/257/300/500"
+        class="slide h-[340px] object-cover" alt="8">
+      <img src="https://picsum.photos/id/247/300/500"
+        class="slide h-[340px]  object-cover" alt="1">
+      <img src="https://picsum.photos/id/337/300/500"
+        class="slide h-[340px]  object-cover" alt="2">
+      <img src="https://picsum.photos/id/297/300/500"
+        class="slide h-[340px]  object-cover" alt="3">
+      <img src="https://picsum.photos/id/265/300/500"
+        class="slide h-[340px] object-cover" alt="4">
+      <img src="https://picsum.photos/id/235/300/500"
+        class="slide h-[340px] object-cover" alt="5">
+      <img src="https://picsum.photos/id/215/300/500"
+        class="slide h-[340px]  object-cover" alt="6">
+      <img src="https://picsum.photos/id/227/300/500"
+        class="slide h-[340px] object-cover" alt="7">
+      <img src="https://picsum.photos/id/257/300/500"
+        class="slide h-[340px] w-[calc(100%/5)] md:w-[calc(100%/2)] sm:w-[calc(100%/1)] object-cover" alt="8">
+    </div>
+    <button
+      class="material-symbols-outlined  bg-white p-2 leading-10 text-center rounded-[50%] text-xl cursor-pointer absolute top-1/2 -right-6 " id="prev-slide">
+      chevron_right
+  </button>
+  </div>
+  <script src="/script.js"></script>
+</body>
+
+</html>

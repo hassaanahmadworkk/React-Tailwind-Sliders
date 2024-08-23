@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+  <title>slider 2</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="flex justify-center items-center min-h-[100vh] bg-[#f1f4fd]">
+  <div class="container max-w-[1200px] w-[95%]">
+    <div class="slider-wrapper">
+      <button id="prev-slide"
+        class="slide-button material-icons absolute h-12 w-12 text-white bg-black rounded-full text-4xl cursor-pointer border-none -left-5 translate-x-[100%] top-1/2">
+        chevron_left
+      </button>
+
+      <div class="image-list grid auto-cols-[15rem] grid-flow-col gap-4 overflow-x-auto text-[0px] mb-7">
+        <img src="https://picsum.photos/id/247/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="1" />
+        <img src="https://picsum.photos/id/337/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="2" />
+        <img src="https://picsum.photos/id/297/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="3" />
+        <img src="https://picsum.photos/id/265/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="4" />
+        <img src="https://picsum.photos/id/235/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="5" />
+        <img src="https://picsum.photos/id/215/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="6" />
+        <img src="https://picsum.photos/id/237/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="7" />
+        <img src="https://picsum.photos/id/357/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="8" />
+        <img src="https://picsum.photos/id/287/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="9" />
+        <img src="https://picsum.photos/id/262/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="10" />
+        <img src="https://picsum.photos/id/267/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="1" />
+        <img src="https://picsum.photos/id/317/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="2" />
+        <img src="https://picsum.photos/id/254/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="3" />
+        <img src="https://picsum.photos/id/240/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="4" />
+        <img src="https://picsum.photos/id/225/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="5" />
+        <img src="https://picsum.photos/id/275/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="6" />
+        <img src="https://picsum.photos/id/331/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="7" />
+        <img src="https://picsum.photos/id/397/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="8" />
+        <img src="https://picsum.photos/id/256/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="9" />
+        <img src="https://picsum.photos/id/865/500/1000" class="image-item w-[325px] h-[400px] object-cover" alt="10" />
+      </div>
+      <button id="next-slide"
+        class="slide-button  material-icons  absolute h-12 w-12 text-white bg-black rounded-full text-4xl cursor-pointer border-none -right-5 -translate-x-[100%] top-1/2">
+        chevron_right
+      </button>
+    </div>
+    <div class="group slider-scrollbar h-6 w-full flex items-center">
+      <div class="scrollbar-track h-0.5 w-full bg-[#ccc] relative rounded-lg group-hover:h-1">
+        <div
+          class="scrollbar-thumb absolute h-full w-6/12 bg-black  cursor-grab rounded-md after:absolute after:contents[''] after:left-0 after:right-0 after:-top-[10px] after:bottom-[-10px] active:cursor-grabbing active:h-2 active:-top-[2px]">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
